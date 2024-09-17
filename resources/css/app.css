@@ -1,0 +1,419 @@
+body {
+  /* min-height: 100vh; */
+  /* min-height: -webkit-fill-available; */
+  background-color: #dbe6ee;
+}
+
+html {
+  /* height: -webkit-fill-available; */
+}
+
+main {
+  /* height: ;
+  height: -webkit-fill-available;
+  max-height: 100vh;
+  overflow-x: auto;
+  overflow-y: hidden; */
+}
+
+nav {
+  position: fixed;
+  z-index: 10;
+  height: 5.5rem;
+  overflow: hidden;
+  background-color: #08163e;
+}
+
+nav #nav-img {
+  position: absolute;
+  z-index: -1;
+}
+
+nav #logo {
+  width: 250px;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #08163e;
+}
+
+label {
+  font-size: 14px;
+}
+
+table {
+  width: 100% !important;
+}
+
+footer {
+  height: 56px;
+}
+
+select {
+  color: grey !important;
+}
+
+#authentication {
+  background-color: #08163e;
+  height: 100vh;
+}
+
+#authentication_form {
+  padding: 48px;
+  border-radius: 15px;
+  width: 25%;
+  height: 600px;
+  background-color: white !important;
+}
+
+#background_form {
+
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: -1;
+
+}
+
+#authentication_form #username,
+#authentication_form #password,
+#authentication_form #name,
+#authentication_form #email,
+#authentication_form #setor,
+#authentication_form .selectize-input {
+  color: #05296b !important;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #08163e !important;
+  border-radius: 5px 5px 0 0 !important;
+  background-color: transparent;
+}
+
+#authentication_form #usuario {
+  background-color: #aec4da;
+  color: #05296b !important;
+  width: 100%;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #08163e !important;
+  border-radius: 5px 5px 0 0;
+}
+
+#authentication_form .selectize-input {
+  height: 48px;
+  font-size: 20px;
+  padding-top: 12px;
+}
+
+#authentication_form #username:hover {
+  background-color: #dee2e6;
+}
+
+#login_button,
+#register_button {
+  width: 224px;
+  height: 45px;
+}
+
+#authentication_form form {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#sidebar {
+  height: 100vh;
+  width: 250px;
+  margin-top: 5.5rem;
+  background-color: #08163e;
+  overflow: hidden;
+}
+
+#sidebar-img {
+  position: absolute;
+  z-index: -1;
+}
+
+#content {
+  position: relative;
+  margin-left: 250px;
+  margin-bottom: 56px;
+  width: 100%;
+}
+
+/* .btn-semas */
+.btn-semas {
+  background-color: #08163e;
+  color: white;
+}
+
+.btn-semas:hover,
+.btn-semas:focus {
+  background-color: #08163e;
+  color: white;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+.btn-semas:disabled {
+  border: solid 1px lightgray;
+}
+
+/* .btn-semas-secondary */
+.btn-semas-secondary {
+  background-color: #3152ac3a;
+  color: #08163e;
+  border: solid 1px #08163e;
+}
+
+.btn-semas-secondary:hover {
+  background-color: #3152ac3a;
+  color: #08163e;
+  border: solid 1px #08163e;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+/* .btn-outline-semas */
+.btn-outline-semas {
+  background-color: transparent;
+  color: #08163e;
+  border: solid 1px #08163e;
+}
+
+.btn-outline-semas:hover {
+  background-color: #08163e;
+  color: white;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+
+/* .btn-opaque-semas */
+.btn-opaque-semas {
+  background-color: transparent;
+  color: #08163e;
+}
+
+.btn-opaque-semas:hover {
+  background-color: #08163e;
+  color: white;
+}
+
+/* .btn-opaque-semas-light */
+.btn-opaque-semas-light {
+  color: white;
+}
+
+.btn-opaque-semas-light:hover {
+  background-color: white;
+  color: #08163e;
+}
+
+/* .btn-opaque-semas-danger */
+.btn-opaque-semas-danger {
+  background-color: transparent;
+  color: #dc3545;
+}
+
+.btn-opaque-semas-danger:hover {
+  background-color: #dc3545;
+  color: white;
+}
+
+.bi {
+  fill: currentColor;
+}
+
+.nav-link:hover {
+  background-color: #e6f2ff; /* cor de fundo de hover */
+}
+
+.nav-link:hover span, .nav-link:hover i{
+  color: #08163e;
+}
+
+/* selectize */
+.selectize-input {
+  border-radius: 0.375rem !important;
+  border-color: #dee2e6 !important;
+  /* padding: .375rem .75rem !important; */
+  min-height: 38px !important;
+  color: grey !important;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.selectize-input .item {
+  white-space: nowrap;
+}
+
+#profile-edit i {
+  font-size: 24px ;
+}
+
+.modal-delete {
+  position: fixed;
+  z-index: 9999;
+  top: 0%;
+  left: 0%;
+  width: 100vw;
+  height: 100vh;
+  background-color: #4a628f75;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.modal-delete div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 500px;
+  height: 200px;
+  white-space: wrap;
+}
+
+.modal-option-cancel:hover {
+  color: black;
+}
+
+@media (max-width: 1080px) {
+
+  nav #logo {
+    width: 196px;
+    text-align: center;
+  }
+
+  nav #funcoes a span {
+    display: none;
+  }
+
+  nav #logout {
+    width: 40px;
+  }
+
+  nav #logout i {
+    display: block;
+  }
+
+  #sidebar {
+    width: 196px;
+  }
+
+  #content {
+    margin-left: 196px;
+  }
+
+  #authentication_form {
+    width: 50%;
+  }
+
+  #authentication_form img {
+    width: 150px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  #filtro {
+    display: none;
+  }
+
+  .table-container {
+    display: none;
+  }
+
+  .list-container {
+    display: block !important;
+    margin-top: 2rem;
+  }
+
+  .list-container-links i{
+    font-size: 12px;
+  }
+
+  .list-container-links a{
+    /* width: 16px; */
+    /* height: 16px; */
+    padding: 2px 8px;
+  }
+
+  nav #logo {
+    width: 128px;
+    text-align: center;
+  }
+
+  nav #logo img {
+    width: 72px;
+  }
+
+  nav #titulo {
+    display: none;
+  }
+
+  #sidebar {
+    width: 64px;
+  }
+
+  #sidebar span{
+    display: none;
+  }
+
+  #sidebar div{
+    justify-content: center !important;
+    font-size: 12px;
+  }
+
+  #sidebar a {
+    text-align: center;
+  }
+
+  #content {
+    margin-left: 64px;
+  }
+
+  #authentication_form {
+    height: 50%;
+    width: 70%;
+    padding: 2rem;
+  }
+
+  #authentication_form input {
+    font-size: 16px;
+  }
+
+  #authentication_form img {
+    width: 100px;
+  }
+
+  footer span {
+    font-size: 8px;
+  }
+
+  footer img {
+    margin-right: 1rem;
+  }
+}
+
+@media (max-height: 720px) {
+  #authentication_form{
+    height: 60%;
+  }
+}
